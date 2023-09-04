@@ -1,0 +1,28 @@
+.devices__blocks {
+    width: 80%;
+    min-height: 60vh;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.devices__block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.block__info {
+    width: 45%;
+
+}
+
+.devices__block-text {
+    text-align: left;
+    vertical-align: middle;
+    box-sizing: border-box;
+    font-size: 3vw;
+    padding: 5% 20px;
+}

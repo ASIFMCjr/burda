@@ -1,0 +1,50 @@
+
+.projects__forblocks {
+    width: 90%;
+    margin: auto;
+    min-height: 50vh;
+}
+
+
+.projects__blocks {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projects__block {
+    height: 400px;         
+    min-width: 250px;       
+    flex-basis: 40%;  
+    margin: 50px 5%  
+}
+
+.projects__block-inside {
+    width: 90%;
+    padding-top: 120px;
+    margin: auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s linear;
+}
+
+@media (max-width: 780px) {
+    .projects__block {
+        width: 50%;
+        min-width: 400px;
+    }
+    
+    .projects__block-inside {
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .projects__order-btn {
+        width: 100%;
+    }
+}
